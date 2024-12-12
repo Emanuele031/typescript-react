@@ -1,6 +1,5 @@
 
 
-// src/types.ts
 
 export interface Article {
   id: string;
@@ -15,7 +14,7 @@ export interface ArticlesResponse {
   count: number;
   next: string | null;
   previous: string | null;
-  results: Article[];  // Assicurati che 'results' contenga l'array di articoli
+  results: Article[]; 
 }
 
   

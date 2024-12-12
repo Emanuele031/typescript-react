@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
     <div
       className="container py-5"
       style={{
-        backgroundColor: 'black', // Imposta lo sfondo nero
+        backgroundColor: 'black', 
         minHeight: '100vh',
         paddingTop: '3rem',
         color: 'white',
@@ -14,14 +14,14 @@ const Contact: React.FC = () => {
     >
       <h2 className="text-center mb-5">Contact Us</h2>
 
-      {/* Sezione: Introduzione */}
+      
       <section className="text-center mb-5">
         <p>
           We're always happy to hear from you! Whether you have a question, feedback, or just want to chat about space, feel free to reach out to us through any of the methods below. We're here to help and answer any inquiries you might have.
         </p>
       </section>
 
-      {/* Sezione: Form di contatto */}
+      
       <section className="mb-5">
         <h3 className="text-center mb-4">Get in Touch</h3>
         <form action="mailto:info@spaceflightnews.com" method="post">
@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
         </form>
       </section>
 
-      {/* Sezione: Altri modi per contattarci */}
+      
       <section className="text-center mb-5">
         <h3>Connect with Us on Social Media</h3>
         <p>Follow us or send us a direct message on any of the following platforms:</p>
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
         </div>
       </section>
 
-      {/* Sezione: Dettagli di contatto */}
+      
       <section className="text-center mb-5">
         <h3>Contact Details</h3>
         <p>If you prefer, you can also reach us using the following details:</p>
@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
         </ul>
       </section>
 
-      {/* Footer */}
+      
       <footer className="text-center mt-5 text-light">
         <p>&copy; 2024 Spaceflight News. All Rights Reserved.</p>
       </footer>

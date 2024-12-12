@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <div
       className="container py-5"
       style={{
-        backgroundColor: 'black', // Impostato il colore di sfondo su nero
+        backgroundColor: 'black', 
         minHeight: '100vh',
         paddingTop: '3rem',
         color: 'white',
@@ -14,14 +14,14 @@ const About: React.FC = () => {
     >
       <h2 className="text-center mb-5">About Us</h2>
 
-      {/* Sezione: Introduzione */}
+      
       <section className="text-center mb-5">
         <p>
           Welcome to Spaceflight News! We are passionate about space exploration and its future. Our goal is to bring you the latest news and developments from the world of spaceflight, missions, technologies, and the industry.
         </p>
       </section>
 
-      {/* Sezione: Mission */}
+     
       <section className="text-center mb-5">
         <h3>Our Mission</h3>
         <p>
@@ -29,7 +29,7 @@ const About: React.FC = () => {
         </p>
       </section>
 
-      {/* Sezione: Vision */}
+     
       <section className="text-center mb-5">
         <h3>Our Vision</h3>
         <p>
@@ -37,7 +37,7 @@ const About: React.FC = () => {
         </p>
       </section>
 
-      {/* Sezione: Team */}
+     
       <section className="text-center mb-5">
         <h3>Meet Our Team</h3>
         <div className="row">
@@ -71,7 +71,7 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      
       <footer className="text-center mt-5 text-light">
         <p>&copy; 2024 Spaceflight News. All Rights Reserved.</p>
       </footer>

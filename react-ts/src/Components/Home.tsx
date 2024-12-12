@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-// Interfaccia per gli articoli
+
 interface Article {
   id: number;
   title: string;
@@ -14,12 +14,12 @@ const Home: React.FC = () => {
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
-  // Fetch data from the API
+  
   useEffect(() => {
     fetch('https://api.spaceflightnewsapi.net/v4/articles')
       .then((response) => response.json())
       .then((data) => {
-        setArticles(data.results); // Assume the response has a 'results' array
+        setArticles(data.results); 
         setLoading(false);
       })
       .catch((error) => {
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
     <div
       className="container py-5"
       style={{
-        backgroundColor: 'black', // Sfondo nero per l'intero layout della pagina
+        backgroundColor: 'black', 
         minHeight: '100vh',
         paddingTop: '3rem',
         maxWidth: "100%",
@@ -47,7 +47,7 @@ const Home: React.FC = () => {
         {articles.map((article) => (
           <div key={article.id} className="col-md-4">
             <div className="card bg-dark text-light h-100 shadow-lg">
-              {/* Immagine della card */}
+             
               <img
                 src={article.image_url}
                 className="card-img-top"
